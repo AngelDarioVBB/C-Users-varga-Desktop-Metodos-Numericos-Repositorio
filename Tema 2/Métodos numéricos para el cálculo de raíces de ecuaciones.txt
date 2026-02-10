@@ -93,10 +93,40 @@ Algoritmo
 - Si el punto inicial está cerca de la raíz.
 - Si f es suave (derivable) y f ′(x) no es muy pequeño cerca de la raíz.
 
-
-
 ¿Qué problemas llegas a tener?
+
+- Si la derivada se hace cero en alguna iteración (división entre cero).
+- Si X0 está lejos, puede divergir o irse a otra raíz.
+- En raíces múltiples, la convergencia se vuelve muy lenta.
+
 *************************************************************************************
 
+Método de la secante
+¿Qué es?
+Aproxima la derivada usando una secante entre dos valores anteriores.Suele converger más rápido que bisección y algo más lento que Newton, pero es más barato porque no requiere f′(x).
 
+Fórmula:
+A partir de los datos X0 y X1:
+
+Xn+1 = (Xn-f(Xn) Xn-Xn-1/f(Xn)-f(Xn-1))
+
+Algoritmo:
+  - Escoger X0 y X1 (dos estimaciones iniciales)
+  - Para n = 1,2....
+    - Calcular Xn+1 con fórmula.
+    - Parar si|Xn+1 - Xn| < tol f|(Xn+1)| < tol
+
+----> El ejericio del codigo para este apartado esta guardado en esta misma carpeta con el nombre "secante.java"
+
+¿En que casos es efectivo?
+
+- Cuando tienes buenas aproximaciones iniciales.
+- No tienes derivada analítica o es muy difícil calcularla.
+
+¿Qué problemas llegas a tener?
+
+- Puede divergir si las aproximaciones iniciales son malas.
+- Puede oscilar o irse lejos de la raíz.
+
+*************************************************************************************
 
