@@ -1,1 +1,132 @@
-Tipos de 
+Métodos numéricos para el cálculo de raíces de ecuaciones
+
+¿Qué son los métodos cerrados?
+siempre trabaja dentro de un intervalo [a,b] donde hay cambio de signo.
+
+Teorema de Bolzano (métodos cerrados)
+¿Qué es?
+El Teorema de Bolzano garantiza que existe al menos una raíz en un intervalo [a,b] si:
+Como tal lo que hace es:
+- La función es continua
+- f(a)⋅f(b)<0 (cambia de signo)
+Esto muestra que no calcula la raíz, solo asegura que existe.
+
+¿Para que se usa?
+- Para garantizar que existe al menos una raíz en un intervalo.
+- Para justificar métodos cerrados como bisección y regla falsa.
+​
+--------------------------------------------------------------------------------------
+
+Método de bisección
+
+¿Qué es?
+Divide el intervalo a la mitad en cada iteración y se queda con el subintervalo donde sigue habiendo cambio de signo. Una caracteristica es que es siempre que se convierte y se cumple su condición esto llega a hacer relativamente lento.
+
+Algoritmo
+
+Se va a tomar f(x), intervalo [a,b], tolerancia tol, máximo de iteraciones Nmax(este la mitad):
+
+1. Verificar que f(a)⋅f(b)<0
+2. Para k=1,2,…,Nmax:
+  - Calcular c = (a+b)/2
+  - Si |f(c)| < tol b-a/2 < tol, detener y devolver c.
+  - Si f(a) * f(c) < 0 poner b=c; en el caso, a = c
+
+----> El ejericio del codigo para este apartado esta guardado en esta misma carpeta con el nombre "biseccion.java"
+
+*************************************************************************************
+
+Método de Regla falsa (Regula Falsi, Método de falsa posición)
+
+¿Qué es?
+Lo que realiza este metodo es toma la intersección de la recta secante pasando por (a,f(a)) y (b,f(b)) con el eje x.
+Combina la seguridad de bisección con la idea de la secante para ser más rápido
+
+Fórmula:
+
+c = a-(f(a)(b-a)/f(b) - f(a))
+
+Esto lo que hace es:
+- verificar f(a)*f(b)<0
+- Repetir hasta que cumpla la tolerancia a Nmax lo cual para eso se debe de:
+  - Calcular c con la formula anterior.
+  - Si |f(c)| < tol,obtener.
+  - Si f(a)*f(c) <0, esto hace que b == c de lo contrario a == c.
+
+Algoritmo:
+
+----> El ejericio del codigo para este apartado esta guardado en esta misma carpeta con el nombre "regularFalsi.java"
+
+¿En que casos es efectivo?
+
+- Misma condición que bisección: función continua, cambio de signo en [a,b].
+- Suele converger en menos iteraciones que bisección.
+
+¿Qué problemas llegas a tener?
+
+- Puede volverse muy lenta cuando una de las puntas del intervalo casi no se mueve (estancamiento).
+- Igual que bisección, si f(a)⋅f(b)≥0 no la puedes usar con garantía.
+
+*************************************************************************************
+¿Qué son los Metodos Abietos?
+no necesita un intervalo con cambio de signo, solo un punto inicial x 0.
+
+Método de Newton (Newton–Raphson)
+
+¿Qué es?
+Usa la tangente la curva xn, para aproximar la raíz. Ademas tiene convergencia si el punto inicial esta suficiente cerca de la raiz.
+
+Fórmula:
+
+Xn+1 = Xn-(f(Xn)/f!(Xn))
+
+Algoritmo
+  - Escoge X0(un valor inicial raonable cerca de la raíz)
+  - Para n = 0,1....
+    - Calcular Xn+1 con fórmula anterior.
+    - Si |Xn+1 - Xn| < tol |f(Xn+1)| < detener.
+
+----> El ejericio del codigo para este apartado esta guardado en esta misma carpeta con el nombre "newton.java"
+
+¿En que casos es efectivo?
+
+- Si el punto inicial está cerca de la raíz.
+- Si f es suave (derivable) y f ′(x) no es muy pequeño cerca de la raíz.
+
+¿Qué problemas llegas a tener?
+
+- Si la derivada se hace cero en alguna iteración (división entre cero).
+- Si X0 está lejos, puede divergir o irse a otra raíz.
+- En raíces múltiples, la convergencia se vuelve muy lenta.
+
+*************************************************************************************
+
+Método de la secante
+¿Qué es?
+Aproxima la derivada usando una secante entre dos valores anteriores.Suele converger más rápido que bisección y algo más lento que Newton, pero es más barato porque no requiere f′(x).
+
+Fórmula:
+A partir de los datos X0 y X1:
+
+Xn+1 = (Xn-f(Xn) Xn-Xn-1/f(Xn)-f(Xn-1))
+
+Algoritmo:
+  - Escoger X0 y X1 (dos estimaciones iniciales)
+  - Para n = 1,2....
+    - Calcular Xn+1 con fórmula.
+    - Parar si|Xn+1 - Xn| < tol f|(Xn+1)| < tol
+
+----> El ejericio del codigo para este apartado esta guardado en esta misma carpeta con el nombre "secante.java"
+
+¿En que casos es efectivo?
+
+- Cuando tienes buenas aproximaciones iniciales.
+- No tienes derivada analítica o es muy difícil calcularla.
+
+¿Qué problemas llegas a tener?
+
+- Puede divergir si las aproximaciones iniciales son malas.
+- Puede oscilar o irse lejos de la raíz.
+
+*************************************************************************************
+
