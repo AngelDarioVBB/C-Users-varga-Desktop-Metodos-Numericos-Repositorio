@@ -14,7 +14,14 @@ Esto muestra que no calcula la raíz, solo asegura que existe.
 ¿Para que se usa?
 - Para garantizar que existe al menos una raíz en un intervalo.
 - Para justificar métodos cerrados como bisección y regla falsa.
-​
+
+Algoritmo:
+
+- tomar punto A,B para encontrar un Raiz
+- Tomar la mitad con la formula a+b/2
+- Encontrar 2 casos:
+	case 1:f(a)*f(b) < 0 entonces se encuentra en [a,mitad]
+	case 2:f(a)*f(b) > 0 entonces se encuentra en [mitad,b]
 --------------------------------------------------------------------------------------
 
 Método de bisección
