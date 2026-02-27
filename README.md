@@ -37,6 +37,7 @@ Implementación de métodos numéricos para hallar el valor de $x$ que satisface
 | **Regula Falsi** | Similar a la bisección, pero une los puntos con una línea recta para aproximar la raíz más rápido. | [☕ Java](./Tema%202/regulaFalsi.java) |
 | **Método de la Secante** | Una variante de Newton que no requiere calcular la derivada, usando en su lugar una diferencia finita. | [☕ Java](./Tema%202/secante.java) |
 | **Notas de Clase** | Resumen teórico sobre criterios de convergencia y errores de aproximación. | [📝 TXT](./Tema%202/Métodos%20numéricos%20para%20el%20cálculo%20de%20raíces%20de%20ecuaciones.txt) |
+| **Problemario T2** |Son ejercicios de todos los metodos| [📝 PDF](./Tema%202/ProblemarioTema%202.pdf) |
 
 ---
 
