@@ -42,6 +42,7 @@ INICIO Eliminación_Gaussiana
 FIN
 ```
 
+---
 
 ### 📑 4. Codigo
 Este Codigo mostrara un ejemplo sobre el ejercicio de limpiar la matriz:
@@ -97,3 +98,5 @@ Este Codigo mostrara un ejemplo sobre el ejercicio de limpiar la matriz:
 ```
 
 Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ Java](./EjemploImplemetado.java)
+
+---
