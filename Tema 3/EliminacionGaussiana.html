@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminación Gaussiana - Tema 3</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
+        header { background: #2c3e50; color: white; padding: 20px; text-align: center; border-radius: 8px; margin-bottom: 30px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        code { background: #272822; color: #f8f8f2; padding: 15px; border-radius: 5px; display: block; overflow-x: auto; white-space: pre; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table, th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #3498db; color: white; }
+        .btn { display: inline-block; background: #e74c3c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; transition: 0.3s; }
+        .btn:hover { background: #c0392b; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Método de Eliminación Gaussiana</h1>
+    <p>Métodos Numéricos - Tema 3</p>
+</header>
+
+<section class="card">
+    <h2>Objetivo</h2>
+    <p>Reducir un sistema de ecuaciones lineales a una forma <strong>triangular superior</strong> mediante operaciones elementales entre filas, permitiendo resolver las incógnitas de forma secuencial (sustitución hacia atrás).</p>
+</section>
+
+<section class="card">
+    <h2>Descripción</h2>
+    <p>El proceso consiste en eliminar sistemáticamente las variables de las ecuaciones. Se trabaja con la <strong>matriz aumentada</strong> y se busca que todos los elementos debajo de la diagonal principal sean cero.</p>
+    
+</section>
+
+<section class="card">
+    <h2>Pseudocódigo</h2>
+    <code>
+1. Para cada columna k (pivote):
+2.   Para cada fila i debajo del pivote:
+3.     Factor = A[i,k] / A[k,k]
+4.     Fila[i] = Fila[i] - Factor * Fila[k]
+5. Sustitución hacia atrás para hallar x[n]...x[1]
+    </code>
+</section>
+
+<section class="card">
+    <h2>Código en Python</h2>
+    <code>
+import numpy as np
+
+def eliminacion_gaussiana(A, b):
+    n = len(b)
+    Ab = np.concatenate((A, b.reshape(n, 1)), axis=1).astype(float)
+    for i in range(n):
+        for k in range(i + 1, n):
+            factor = Ab[k][i] / Ab[i][i]
+            Ab[k, i:] -= factor * Ab[i, i:]
+    x = np.zeros(n)
+    for i in range(n-1, -1, -1):
+        x[i] = (Ab[i,-1] - np.dot(Ab[i,i+1:], x[i+1:])) / Ab[i,i]
+    return x
+    </code>
+</section>
+
+<section class="card">
+    <h2>Casos de Prueba</h2>
+    <table>
+        <tr>
+            <th>Sistema</th>
+            <th>Matriz A</th>
+            <th>Vector b</th>
+            <th>Resultado</th>
+        </tr>
+        <tr>
+            <td>2x2</td>
+            <td>[[2, 1], [1, -1]]</td>
+            <td>[5, 1]</td>
+            <td>x=2, y=1</td>
+        </tr>
+        <tr>
+            <td>3x3</td>
+            <td>[[3, 2, -1], [2, -2, 4], [-1, 0.5, -1]]</td>
+            <td>[1, -2, 0]</td>
+            <td>x=1, y=-2, z=-2</td>
+        </tr>
+    </table>
+</section>
+
+<div style="text-align: center; margin-top: 30px;">
+    //<a href="./Presentacion%20Gauss%20Seidel.pdf" class="btn">📂 Ver Presentación PDF</a>
+</div>
+
+</body>
+</html>
