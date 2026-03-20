@@ -47,6 +47,7 @@ Estos métodos buscan reducir el sistema a una sola ecuación con una sola incó
 | Método | Descripción del Sistema | Enlace |
 | :--- | :--- | :---: |
 | **Sistema de Gauss Seidel EXPOSICION EQUIPO** | Comienza con una "estimación inicial" y la va refinando hasta que el error es lo suficientemente pequeño. | [📄 PDF](./Tema%203/Presentacion%20Gauss%20Seidel.pdf) |
+| **Video EXPOSICION EQUIPO Gauss Seidel** | Realizado con nuevas librerias impartidas por el docente. | [📹 VIDEO](./Tema%203/VideoGrafico.mp4) |
 | **Newton-Raphson** | Método abierto que utiliza la derivada de la función. Es extremadamente rápido pero requiere una buena aproximación inicial. | [☕ Java](./☕%20Java/Tema%202/newton.java) |
 | **Regula Falsi** | Similar a la bisección, pero une los puntos con una línea recta para aproximar la raíz más rápido. | [☕ Java](./Tema%202/regulaFalsi.java) |
 | **Método de la Secante** | Una variante de Newton que no requiere calcular la derivada, usando en su lugar una diferencia finita. | [☕ Java](./Tema%202/secante.java) |
