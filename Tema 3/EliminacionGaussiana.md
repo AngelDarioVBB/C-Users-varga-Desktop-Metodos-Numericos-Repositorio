@@ -47,7 +47,8 @@ FIN
 ### 📑 4. Codigo
 Este Codigo mostrara un ejemplo sobre el ejercicio de limpiar la matriz:
 
-```textpublic class EliminacionGaussiana {
+```text
+public class EliminacionGaussiana {
 
     public static void main(String[] args) {
         // Matriz de coeficientes (A)
@@ -100,3 +101,9 @@ Este Codigo mostrara un ejemplo sobre el ejercicio de limpiar la matriz:
 Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ Java](./EjemploImplemetado.java)
 
 ---
+
+### 📑 5. Conclusion
+En resumen, la Eliminación Gaussiana es una herramienta fundamental en el álgebra lineal que nos permite pasar de un sistema de ecuaciones complejo a uno fácil de resolver (triangular).
+Por otro lado Nos enseña la importancia de mantener el orden en las operaciones matemáticas para evitar errores de redondeo y llegar a una solución exacta.
+
+Como terminación sobre el Congreso de Tepec nos comentaron y cito "En la era de la Inteligencia Artificial y el Big Data, la capacidad de resolver sistemas de ecuaciones de manera rápida y precisa sigue siendo el motor silencioso que permite modelar la realidad física en un entorno digital."
