@@ -41,3 +41,6 @@ INICIO Eliminación_Gaussiana
       Suma = Suma + A[i,j] * x[j]
     x[i] = (b[i] - Suma) / A[i,i]
 FIN
+```
+
+Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ Java](./Tema%203/EjemploImplemetado.java)
