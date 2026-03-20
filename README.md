@@ -49,9 +49,8 @@ Estos métodos buscan reducir el sistema a una sola ecuación con una sola incó
 | **Sistema de Gauss Seidel EXPOSICION EQUIPO** | Comienza con una "estimación inicial" y la va refinando hasta que el error es lo suficientemente pequeño. | [📄 PDF](./Tema%203/Presentacion%20Gauss%20Seidel.pdf) |
 | **Video EXPOSICION EQUIPO Gauss Seidel** | Realizado con nuevas librerias impartidas por el docente. | [📹 VIDEO](./Tema%203/VideoGrafico.mp4) |
 | **Sistema Eliminación Gaussiana** | Una vez que el sistema está "escalonado", los valores de las incógnitas se encuentran mediante sustitución hacia atrás, empezando por la última variable hasta llegar a la primera. | [☕ MD](./Tema%203/EliminacionGaussiana.md) |
-| **Regula Falsi** | Similar a la bisección, pero une los puntos con una línea recta para aproximar la raíz más rápido. | [☕ Java](./Tema%202/regulaFalsi.java) |
-| **Método de la Secante** | Una variante de Newton que no requiere calcular la derivada, usando en su lugar una diferencia finita. | [☕ Java](./Tema%202/secante.java) |
-| **Notas de Clase** | Resumen teórico sobre criterios de convergencia y errores de aproximación. | [📝 TXT](./Tema%202/Métodos%20numéricos%20para%20el%20cálculo%20de%20raíces%20de%20ecuaciones.txt) |
+| **Sistema Gauss Jordan** | El método transforma la matriz de coeficientes de un sistema de ecuaciones lineales en una **matriz identidad** (I). Al finalizar el proceso, los valores de las incógnitas aparecen directamente en la columna de los términos independientes. | [☕ MD](./Tema%203/GaussJordan.md) |
+| **Sistema Jacobi** | El método descompone la matriz A en tres partes: una matriz diagonal (D), una triangular inferior (L) y una triangular superior (U). | [☕ MD](./Tema%203/Jacobi.md) |
 | **Problemario T3** |Son ejercicios de todos los Sistemas Explicando el Algoritmo, Codigo y los Codigos dependiendo de casa tipo de Sistema| [📝 PDF](./Tema%203/T3Problemario.pdf) |
 
 ---
