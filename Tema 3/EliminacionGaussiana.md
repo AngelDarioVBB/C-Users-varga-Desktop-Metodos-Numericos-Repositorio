@@ -1,8 +1,7 @@
 # 📘 Tema 3: Métodos de Solución de Sistemas de Ecuaciones
 ## 📂 Subtema: Eliminación Gaussiana
 
-> **Estatus:** Exposición de Equipo 03
-> **Integrantes:** Vargas y Equipo
+> **Estatus:** Apuntes sobre exposición de compañeros
 
 ---
 
@@ -97,4 +96,4 @@ Este Codigo mostrara un ejemplo sobre el ejercicio de limpiar la matriz:
 }
 ```
 
-Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ Java](./Tema%203/EjemploImplemetado.java)
+Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ Java](./EjemploImplemetado.java)
