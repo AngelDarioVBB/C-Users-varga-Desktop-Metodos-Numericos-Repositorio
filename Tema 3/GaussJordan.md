@@ -20,8 +20,6 @@ Es una variación del método de eliminación gaussiana. Mientras que en el mét
 3.  Eliminar los elementos de la columna del pivote (hacerlos $0$) en todas las demás filas, tanto arriba como abajo.
 4.  Repetir para todas las columnas hasta obtener la matriz identidad en el lado izquierdo.
 
-
-
 ---
 
 ### 3. Pseudocódigo
@@ -43,6 +41,9 @@ INICIO Gauss_Jordan(A, b, n)
         b[k] = b[k] - factor * b[i]
 FIN
 ```
+
+---
+
 ### 📑 4. Codigo
 Implementación funcional para resolver un sistema de n X n.
 ```text
@@ -90,6 +91,9 @@ public class GaussJordan {
     }
 }
 ```
+Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ Java](./EjemploGaussJordan.java)
+
+---
 
 ### 📑 5. Conclusion
 
