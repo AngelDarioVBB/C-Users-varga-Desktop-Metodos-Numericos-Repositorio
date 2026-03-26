@@ -1,16 +1,16 @@
-# 📘 Tema 3: Métodos de Solución de Sistemas de Ecuaciones
-## 📂 Subtema: Eliminación Gaussiana
+# Tema 3: Métodos de Solución de Sistemas de Ecuaciones
+## Subtema: Eliminación Gaussiana
 
 > **Estatus:** Apuntes sobre exposición de compañeros
 
 ---
 
-### 🎯 1. Objetivo
+### 1. Objetivo
 El objetivo primordial del método de **Eliminación Gaussiana** es transformar un sistema de ecuaciones lineales complejo en un **sistema triangular superior**. Esto permite resolver las incógnitas de manera sencilla mediante una **sustitución hacia atrás**, reduciendo significativamente el error humano y el tiempo de cálculo.
 
 ---
 
-### 📝 2. Descripción del Método
+### 2. Descripción del Método
 Este método algebraico utiliza la **matriz aumentada** (que combina los coeficientes de las variables y los términos independientes). A través de operaciones elementales de fila, buscamos generar ceros debajo de la diagonal principal.
 
 **Operaciones permitidas:**
@@ -22,7 +22,7 @@ Este método algebraico utiliza la **matriz aumentada** (que combina los coefici
 
 ---
 
-### 📑 3. Pseudocódigo
+### 3. Pseudocódigo
 Este algoritmo representa la lógica que sigue el programa para limpiar la matriz:
 
 ```text
@@ -44,7 +44,7 @@ FIN
 
 ---
 
-### 📑 4. Codigo
+### 4. Codigo
 Este Codigo mostrara un ejemplo sobre el ejercicio de limpiar la matriz:
 
 ```text
