@@ -56,6 +56,18 @@ Estos métodos buscan reducir el sistema a una sola ecuación con una sola incó
 ---
 
 
+### 🔹 Tema 4: Metodos y Video IA
+Estos métodos buscan reducir el error al marcar dos o mas puntos con los siguientes puntos.
+
+| Método | Descripción del Sistema | Enlace |
+| :--- | :--- | :---: |
+| **Video explicativo con IA de los temas** | Es importante ya que es para analizar los temas explicados con una IA todo referenciado | [📄 MP3](./Tema%203/Presentacion%20Gauss%20Seidel.pdf) |
+| **Video EXPOSICION EQUIPO Gauss Seidel** | Realizado con nuevas librerias impartidas por el docente. | [📹 VIDEO](./Tema%203/VideoGrafico.mp4) |
+
+
+---
+
+
 
 ## 🛠️ Tecnologías y Requisitos
 
