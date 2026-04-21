@@ -61,7 +61,7 @@ Estos métodos buscan reducir el error al marcar dos o mas puntos con los siguie
 
 | Método | Descripción del Sistema | Enlace |
 | :--- | :--- | :---: |
-| **Video explicativo con IA de los temas** | Es importante ya que es para analizar los temas explicados con una IA todo referenciado | [📄 MP3](./linkexpoIA.txt) |
+| **Video explicativo con IA de los temas** | Es importante ya que es para analizar los temas explicados con una IA todo referenciado | [📄 txt](./linkexpoIA.txt) |
 | **Video EXPOSICION EQUIPO Gauss Seidel** | Realizado con nuevas librerias impartidas por el docente. | [📹 VIDEO](./Tema%203/VideoGrafico.mp4) |
 
 
