@@ -1,7 +1,6 @@
 import java.math.BigDecimal;
 
-public class Main
-{
+public class CancelacionporResta {
 	public static void main(String[] args) {
         // Dos números muy grandes y muy cercanos
         double x = 1234567890.1234567;

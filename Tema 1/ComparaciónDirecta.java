@@ -6,7 +6,7 @@ Write your code in this editor and press "Run" button to execute it.
 
 *******************************************************************************/
 
-public class Main
+public class ComparaciónDirecta
 {
 	public static void main(String[] args) {
         // 1. El Problema: Error de redondeo en aritmética de punto flotante

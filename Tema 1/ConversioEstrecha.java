@@ -1,6 +1,6 @@
 import java.math.BigDecimal;
 
-public class Main
+public class ConversioEstrecha
 {
 	public static void main(String[] args) {
         double valorDouble = 3.14159e10; // Un número muy grande

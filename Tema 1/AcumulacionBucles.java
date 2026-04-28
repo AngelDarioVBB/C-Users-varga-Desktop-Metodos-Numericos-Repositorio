@@ -1,7 +1,6 @@
 import java.math.BigDecimal;
 
-public class Main
-{
+public class AcumulacionBucles {
 	public static void main(String[] args) {
         int iteraciones = 1000000; // Un millón de sumas
         double incremento = 0.1;

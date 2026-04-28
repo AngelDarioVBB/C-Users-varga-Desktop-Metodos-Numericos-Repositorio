@@ -1,0 +1,12 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class ConversioEstrecha {
+   public ConversioEstrecha() {
+   }
+
+   public static void main(String[] var0) {
+      double var1 = 3.14159E10;
+      int var3 = (int)var1;
+      System.out.println("Valor Original: " + var1);
+      System.out.println("Valor Truncado: " + var3);
+   }
+}

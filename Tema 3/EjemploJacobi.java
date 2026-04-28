@@ -1,4 +1,4 @@
-public class Jacobi {
+public class EjemploJacobi {
 
     public static void main(String[] args) {
         double[][] A = {

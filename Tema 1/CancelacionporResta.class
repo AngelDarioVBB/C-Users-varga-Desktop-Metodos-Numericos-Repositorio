@@ -1,0 +1,12 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class CancelacionporResta {
+   public CancelacionporResta() {
+   }
+
+   public static void main(String[] var0) {
+      double var1 = 1.2345678901234567E9;
+      double var3 = 1.234567890123456E9;
+      double var5 = var1 - var3;
+      System.out.println("Resultado real: " + var5);
+   }
+}

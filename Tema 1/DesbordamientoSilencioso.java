@@ -1,6 +1,6 @@
 import java.math.BigDecimal;
 
-public class Main
+public class DesbordamientoSilencioso
 {
 	public static void main(String[] args) {
         int max = Integer.MAX_VALUE; // 2,147,483,647
