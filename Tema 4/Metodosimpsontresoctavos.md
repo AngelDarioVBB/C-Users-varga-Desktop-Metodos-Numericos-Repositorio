@@ -104,13 +104,13 @@ public class MetodoSimpson38 {
 }
 ```
 
-Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ CodigoEjemplo1](./CodigoSim13/MetodoSimpson38.java)
+Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ CodigoEjemplo1](CodigoSim38/MetodoSimpson38.java)
 
 A continuación van los siguientes codigos:
-[☕ CodigoEjemplo2](./CodigoSim38/MetodoSimpson382.java)
-[☕ CodigoEjemplo3](./CodigoSim38/MetodoSimpson383.java)
-[☕ CodigoEjemplo4](./CodigoSim38/MetodoSimpson384.java)
-[☕ CodigoEjemplo5](./CodigoSim38/MetodoSimpson385.java)
+[☕ CodigoEjemplo2](CodigoSim38/MetodoSimpson382.java)
+[☕ CodigoEjemplo3](CodigoSim38/MetodoSimpson383.java)
+[☕ CodigoEjemplo4](CodigoSim38/MetodoSimpson384.java)
+[☕ CodigoEjemplo5](CodigoSim38/MetodoSimpson385.java)
 
 
 
