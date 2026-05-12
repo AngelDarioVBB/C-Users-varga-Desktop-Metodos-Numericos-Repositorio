@@ -57,7 +57,7 @@ INICIO Simpson13(f, a, b, n)
   integral = (h / 3) * suma
   RETURN integral
 FIN
-
+```
 
 ### 📑 4. Codigo
 Implementación funcional para resolver un sistema de n X n.

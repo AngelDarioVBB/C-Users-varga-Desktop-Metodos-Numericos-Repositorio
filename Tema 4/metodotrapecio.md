@@ -44,7 +44,7 @@ INICIO Trapecio(f, a, b, n)
   integral = (h / 2) * suma
   RETURN integral
 FIN
-
+```
 
 ### 📑 4. Codigo
 Implementación funcional para resolver un sistema de n X n.
