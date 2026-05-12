@@ -114,13 +114,13 @@ public class CuadraturaGaussiana {
 
 ``
 
-Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ CodigoEjemplo1](./Codigogauss/CuadraturaGaussiana.java)
+Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ CodigoEjemplo1](Codigogauss/CuadraturaGaussiana.java)
 
 A continuación van los siguientes codigos:
 [☕ CodigoEjemplo2](Codigogauss/CuadraturaGaussiana2.java)
-[☕ CodigoEjemplo3](./Codigogauss/CuadraturaGaussiana3.java)
-[☕ CodigoEjemplo4](./Codigogauss/CuadraturaGaussiana4.java)
-[☕ CodigoEjemplo5](./Codigogauss/CuadraturaGaussiana5.java)
+[☕ CodigoEjemplo3](Codigogauss/CuadraturaGaussiana3.java)
+[☕ CodigoEjemplo4](Codigogauss/CuadraturaGaussiana4.java)
+[☕ CodigoEjemplo5](Codigogauss/CuadraturaGaussiana5.java)
 
 
 

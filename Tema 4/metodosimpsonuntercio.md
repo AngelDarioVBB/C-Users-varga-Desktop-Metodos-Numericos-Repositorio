@@ -100,13 +100,13 @@ public class MetodoSimpson13 {
     }
 }
 ```
-Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ CodigoEjemplo1](./CodigoSim13/MetodoSimpson13.java)
+Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ CodigoEjemplo1](CodigoSim13/MetodoSimpson13.java)
 
 A continuación van los siguientes codigos:
-[☕ CodigoEjemplo2](./CodigoSim13/MetodoSimpson132.java)
-[☕ CodigoEjemplo3](./CodigoSim13/MetodoSimpson133.java)
-[☕ CodigoEjemplo4](./CodigoSim13/MetodoSimpson134.java)
-[☕ CodigoEjemplo5](./CodigoSim13/MetodoSimpson135.java)
+[☕ CodigoEjemplo2](CodigoSim13/MetodoSimpson132.java)
+[☕ CodigoEjemplo3](CodigoSim13/MetodoSimpson133.java)
+[☕ CodigoEjemplo4](CodigoSim13/MetodoSimpson134.java)
+[☕ CodigoEjemplo5](CodigoSim13/MetodoSimpson135.java)
 
 
 
