@@ -64,7 +64,7 @@ Estos métodos buscan reducir el error al marcar dos o mas puntos con los siguie
 | **Video explicativo con IA de los temas** | Es importante ya que es para analizar los temas explicados con una IA todo referenciado | [📄 txt](./linkexpoIA.txt) |
 | **Video EXPOSICION EQUIPO Gauss Seidel** | Realizado con nuevas librerias impartidas por el docente. | [📹 VIDEO](./Tema%203/VideoGrafico.mp4) |
 | **Método del Trapecio** | El método aproxima el Área bajo la curva reemplazando el tramo de la función entre los dos formando así un trapecio. | [☕ MD](./Tema%204/metodotrapecio.md) |
-| **Método de Simpson 1/3** | El método mejora la precisión del trapecio al aproximar función mediante parábolas en lugar de segmentos rectos. | [☕ MD](./Tema%204/metodotrapecio.md) |
+| **Método de Simpson 1/3** | El método mejora la precisión del trapecio al aproximar función mediante parábolas en lugar de segmentos rectos. | [☕ MD](./Tema%204/metodosimpsonuntercio.md) |
 | **Método de Simpson 3/8** | El método utiliza polinomios cúbicospara aproximar la curva en grupos de tres subinter.Resulta especialmente útil cuando la cantidad de divisiones es múltiplo de tres o cuando se conbina con particiones mixtas. | [☕ MD](./Tema%204/Metodosimpsontresoctavos.md) |
 | **Método de la Cuadratura Gaussiana** | El método de la cuadratura gaussiana aproxima integrales mediante una conbinación óptima de puntos especifícos dentro del intervalo de integración. A diferencia de métodos tradicionales que usan divisiones estratégicamente nodos para maximizar la precisión con pocas evaluzaciones. | [☕ MD](./Tema%204/Metodocuadraturagauss.md) |
 ---
