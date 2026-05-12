@@ -77,13 +77,13 @@ public class MetodoTrapecio {
     }
 }
 ```
-Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ CodigoEjemplo1](./Codigosrtapecio/MetodoTrapecio.java)
+Para poder visualizar y correr el ejemplo implementado en Java es el apartado siguiente: [☕ CodigoEjemplo1](Codigosrtapecio/MetodoTrapecio.java)
 
 A continuación van los siguientes codigos:
-[☕ CodigoEjemplo2](./Codigosrtapecio/MetodoTrapecio2.java)
-[☕ CodigoEjemplo3](./Codigosrtapecio/MetodoTrapecio3.java)
-[☕ CodigoEjemplo4](./Codigosrtapecio/MetodoTrapecio4.java)
-[☕ CodigoEjemplo5](./Codigosrtapecio/MetodoTrapecio5.java)
+[☕ CodigoEjemplo2](Codigosrtapecio/MetodoTrapecio2.java)
+[☕ CodigoEjemplo3](Codigosrtapecio/MetodoTrapecio3.java)
+[☕ CodigoEjemplo4](Codigosrtapecio/MetodoTrapecio4.java)
+[☕ CodigoEjemplo5](Codigosrtapecio/MetodoTrapecio5.java)
 
 
 
