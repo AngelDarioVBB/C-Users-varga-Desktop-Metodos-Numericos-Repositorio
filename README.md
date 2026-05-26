@@ -67,8 +67,21 @@ Estos métodos buscan reducir el error al marcar dos o mas puntos con los siguie
 | **Método de Simpson 1/3** | El método mejora la precisión del trapecio al aproximar función mediante parábolas en lugar de segmentos rectos. | [☕ MD](./Tema%204/metodosimpsonuntercio.md) |
 | **Método de Simpson 3/8** | El método utiliza polinomios cúbicospara aproximar la curva en grupos de tres subinter.Resulta especialmente útil cuando la cantidad de divisiones es múltiplo de tres o cuando se conbina con particiones mixtas. | [☕ MD](./Tema%204/Metodosimpsontresoctavos.md) |
 | **Método de la Cuadratura Gaussiana** | El método de la cuadratura gaussiana aproxima integrales mediante una conbinación óptima de puntos especifícos dentro del intervalo de integración. A diferencia de métodos tradicionales que usan divisiones estratégicamente nodos para maximizar la precisión con pocas evaluzaciones. | [☕ MD](./Tema%204/Metodocuadraturagauss.md) |
+
 ---
 
+### 🔹 Tema 5: Extrapolación, interpolación y Regresión
+Mientras que la interpolación estima valores *dentro* del rango de datos conocidos, la extrapolación pronostica valores *fuera* de ese rango. La extrapolación lineal asume que la tendencia local (generalmente de los dos últimos puntos conocidos) continuará constante hacia el futuro o el pasado. Y para el apartado de la regresión se utiliza cuando los datos tienen ruido, errores de medición o dispersión. El objetivo no es tocar cada punto, sino encontrar una tendencia global única (una línea recta) que minimice la distancia promedio a todos ellos.
+
+| Método | Descripción del Sistema | Enlace |
+| :--- | :--- | :---: |
+| **Interpolación Segmentada** | Se utiliza polinomios de bajo grado en cada subintervalo, garantizando una curva suave, precisa y libre de oscilaciones. | [☕ MD](./Tema%205/interpolacionsegmentada.md) |
+| **Extrapolación Lineal** | Asume que la tendencia local (generalmente de los dos últimos puntos conocidos) continuará constante hacia el futuro o el pasado. | [☕ MD](./Tema%205/extrapolacionlineal.md) |
+| **Extrapolación Polinomica** | Utiliza un polinomio de grado $n$ construido a partir de múltiples puntos. Esto le permite capturar curvas, aceleraciones y tendencias no lineales. | [☕ MD](./Tema%205/extrapolacionpolinomica.md) |
+| **Extrapolación de Richardson** | Se utiliza para mejorar drásticamente la precisión de un algoritmo numérico (como derivadas o integrales) eliminando sistemáticamente los términos de error de menor orden sin necesidad de reducir el tamaño | [☕ MD](./Tema%205/extrapolacionrichardson.md) |
+| **Regresión Lineal** | Se utiliza cuando los datos tienen ruido, errores de medición o dispersión. El objetivo no es tocar cada punto, sino encontrar una tendencia global única (una línea recta). | [☕ MD](./Tema%205/regresión.md) |
+
+---
 
 
 ## 🛠️ Tecnologías y Requisitos
