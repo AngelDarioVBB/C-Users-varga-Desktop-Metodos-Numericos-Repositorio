@@ -47,7 +47,7 @@ Estos métodos buscan reducir el sistema a una sola ecuación con una sola incó
 | Método | Descripción del Sistema | Enlace |
 | :--- | :--- | :---: |
 | **Sistema de Gauss Seidel EXPOSICION EQUIPO** | Comienza con una "estimación inicial" y la va refinando hasta que el error es lo suficientemente pequeño. | [📄 PDF](./Tema%203/Presentacion%20Gauss%20Seidel.pdf) |
-| **Video EXPOSICION EQUIPO Gauss Seidel** | Realizado con nuevas librerias impartidas por el docente. | [📹 VIDEO](./Tema%203/VideoGrafico.mp4) |
+| **Video EXPOSICION EQUIPO Gauss Seidel** | Realizado con nuevas librerias impartidas por el docente. | [📹 VIDEO](https://github.com/user-attachments/assets/66c33d34-18ed-41fc-8c93-6f9427ad6902) |
 | **Sistema Eliminación Gaussiana** | Una vez que el sistema está "escalonado", los valores de las incógnitas se encuentran mediante sustitución hacia atrás, empezando por la última variable hasta llegar a la primera. | [☕ MD](./Tema%203/EliminacionGaussiana.md) |
 | **Sistema Gauss Jordan** | El método transforma la matriz de coeficientes de un sistema de ecuaciones lineales en una **matriz identidad** (I). Al finalizar el proceso, los valores de las incógnitas aparecen directamente en la columna de los términos independientes. | [☕ MD](./Tema%203/GaussJordan.md) |
 | **Sistema Jacobi** | El método descompone la matriz A en tres partes: una matriz diagonal (D), una triangular inferior (L) y una triangular superior (U). | [☕ MD](./Tema%203/Jacobi.md) |
@@ -56,13 +56,15 @@ Estos métodos buscan reducir el sistema a una sola ecuación con una sola incó
 ---
 
 
+
+
+
 ### 🔹 Tema 4: Metodos y Video IA
 Estos métodos buscan reducir el error al marcar dos o mas puntos con los siguientes puntos.
 
 | Método | Descripción del Sistema | Enlace |
 | :--- | :--- | :---: |
 | **Video explicativo con IA de los temas** | Es importante ya que es para analizar los temas explicados con una IA todo referenciado | [📄 txt](./linkexpoIA.txt) |
-| **Video EXPOSICION EQUIPO Gauss Seidel** | Realizado con nuevas librerias impartidas por el docente. | [📹 VIDEO](./Tema%203/VideoGrafico.mp4) |
 | **Método del Trapecio** | El método aproxima el Área bajo la curva reemplazando el tramo de la función entre los dos formando así un trapecio. | [☕ MD](./Tema%204/metodotrapecio.md) |
 | **Método de Simpson 1/3** | El método mejora la precisión del trapecio al aproximar función mediante parábolas en lugar de segmentos rectos. | [☕ MD](./Tema%204/metodosimpsonuntercio.md) |
 | **Método de Simpson 3/8** | El método utiliza polinomios cúbicospara aproximar la curva en grupos de tres subinter.Resulta especialmente útil cuando la cantidad de divisiones es múltiplo de tres o cuando se conbina con particiones mixtas. | [☕ MD](./Tema%204/Metodosimpsontresoctavos.md) |
