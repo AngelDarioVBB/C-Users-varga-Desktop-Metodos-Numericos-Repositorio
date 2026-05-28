@@ -92,7 +92,7 @@ Mientras que la interpolación estima valores *dentro* del rango de datos conoci
 | **Runge-Kutta de Cuarto Orden (RK4)** | Realiza cuatro evaluaciones de pendiente distribuidas estratégicamente a lo largo de un solo paso: una al inicio, dos en puntos medios proyectados y una al final. Al promediar estas pendientes mediante una ponderación específica. | [☕ MD](./Tema%206/rungekutta.md) |
 | **Adams-Bashforth de 4 Pasos** | Es un método multipaso explícito. Este algoritmo almacena y reutiliza las evaluaciones funcionales de los puntos inmediatamente anteriores para proyectar el paso futuro con una sola evaluación nueva. | [☕ MD](./Tema%206/adamsbashforth.md) |
 | **Sistemas de Ecuaciones Diferenciales Ordinarias (EDO** | Operan en espacios vectoriales multidimensionales. Esto les permite modelar ecuaciones acopladas independientes simultáneamente y transformar cualquier ecuación diferencial ordinaria de orden superior. | [☕ MD](./Tema%206/edo.md) |
-| **Video Animacion Euler Visualgo** | Es un video sobre el metodo de Euler. | [📹 VIDEO](https://github.com/user-attachments/assets/943c0ac9-5134-4086-bdb8-dea9fb5be478)) |
+| **Video Animacion Euler Visualgo** | Es un video sobre el metodo de Euler. | [📹 VIDEO](https://github.com/user-attachments/assets/943c0ac9-5134-4086-bdb8-dea9fb5be478) |
 
 ---
 https://github.com/user-attachments/assets/f3308e4e-3490-4914-942c-3b1a0548e455
