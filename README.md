@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/f3308e4e-3490-4914-942c-3b1a0548e455
 # 🧮 Repositorio de Métodos Numéricos
 
 Este repositorio contiene el desarrollo práctico y teórico de la asignatura de **Métodos Numéricos**. El objetivo es comprender cómo las computadoras procesan datos numéricos, las limitaciones de su precisión y la implementación de algoritmos para resolver problemas matemáticos complejos mediante **Java**.
@@ -97,7 +95,7 @@ Mientras que la interpolación estima valores *dentro* del rango de datos conoci
 | **Video Animacion Euler Visualgo** | Es un video sobre el metodo de Euler. | [📹 VIDEO](./Tema%206/[metodoeulervideo.mp4](https://github.com/user-attachments/assets/943c0ac9-5134-4086-bdb8-dea9fb5be478)) |
 
 ---
-
+https://github.com/user-attachments/assets/f3308e4e-3490-4914-942c-3b1a0548e455
 
 
 ## 🛠️ Tecnologías y Requisitos
